@@ -52,7 +52,12 @@ public void initialize() throws IOException
 	
 		
 		}
-	
+	@Test
+	public void app() {
+		
+		System.out.println("change done by architect of git demo");
+		System.out.println("i am learning branches in GIt");
+	}
 	@AfterTest
 	public void teardown()
 	{
