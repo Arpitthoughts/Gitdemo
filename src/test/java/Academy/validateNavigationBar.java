@@ -60,11 +60,17 @@ public void initialize() throws IOException
 	}
 	
 	@Test
-	public void app() {
+	public void newapp() {
 		
 		System.out.println("change done by architect of git X");
 		System.out.println("i am learning branches in Git");
 		System.out.println("Please accept my changes");
+	}
+	@Test
+	public void latestapp() {
+		
+		System.out.println("fianl changes done by Asian architect");
+
 	}
 	@AfterTest
 	public void teardown()
