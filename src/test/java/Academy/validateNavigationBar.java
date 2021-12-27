@@ -58,6 +58,14 @@ public void initialize() throws IOException
 		System.out.println("change done by architect of git demo");
 		System.out.println("i am learning branches in GIt");
 	}
+	
+	@Test
+	public void app() {
+		
+		System.out.println("change done by architect of git X");
+		System.out.println("i am learning branches in Git");
+		System.out.println("Please accept my changes");
+	}
 	@AfterTest
 	public void teardown()
 	{
